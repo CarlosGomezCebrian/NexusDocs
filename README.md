@@ -34,7 +34,7 @@ NexusDocs implementa un sistema **RAG (Retrieval-Augmented Generation)** robusto
 1. Despliegue OCI
    El agente debe desplegarse en Oracle Cloud Infrastructure (OCI).
    Se recomienda el uso de una instancia de cómputo (VM) configurada con Docker o un entorno Python persistente.
-   [text](https://www.aluracursos.com/formacion-oracle-cloud-infraestructure)
+   [Ir a los cursos de Alura ](https://www.aluracursos.com/formacion-oracle-cloud-infraestructure)
 
 2. Despliegue Rápido (Streamlit Cloud)
    Para una puesta en marcha ágil o pruebas rápidas:
@@ -51,10 +51,6 @@ NexusDocs implementa un sistema **RAG (Retrieval-Augmented Generation)** robusto
 
 💡 Cómo usar NexusDocs
 NexusDocs es una solución RAG modular y abierta. Solo clona el repo, configura tu archivo .env con tus credenciales de Groq y añade tus documentos (PDF, Markdown, etc.) en la carpeta /docs para comenzar.
-
-[INSERTA AQUÍ TU IMAGEN O VIDEO DEL AGENTE EN EJECUCIÓN]
-
-Desafío Alura Agentes - MVP Corporativo
 
 ## ☁️ Despliegue en la Nube
 
