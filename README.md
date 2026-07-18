@@ -12,6 +12,13 @@ NexusDocs implementa un sistema **RAG (Retrieval-Augmented Generation)** robusto
 4. **Orquestación:** Cadena moderna (`create_retrieval_chain`) conectada a la API de **Groq** (usando el modelo `llama-3.3-70b-versatile`).
 5. **Interfaz:** Aplicación web interactiva desarrollada con `Streamlit`.
 
+## 🏗 Arquitectura Técnica de NexusDocs
+
+El siguiente diagrama ilustra cómo funciona el flujo de tu información a través de los componentes de Inteligencia Artificial:
+![El siguiente diagrama ilustra cómo funciona el flujo de tu información a través de los componentes de Inteligencia Artificial:# Sistema de Búsqueda Semántica con LangChain](diagrama_agente.png)
+
+_El flujo garantiza que la IA no invente información, sino que responda basándose exclusivamente en los documentos internos de la empresa cargados en `/docs`._
+
 ## 🛠 Tecnologías Utilizadas
 
 - **Lenguaje:** Python 3.x
@@ -55,7 +62,12 @@ NexusDocs es una solución RAG modular y abierta. Solo clona el repo, configura 
 ## ☁️ Despliegue en la Nube
 
 El agente está desplegado y operativo en la infraestructura cloud.
-[Aquí puedes insertar la imagen o video del agente ejecutándose, como solicita el desafío]
+
+nexusdocs-cgwis.streamlit.app
+
+[Ir a la aplicación](https://nexusdocs-cgwis.streamlit.app/)
+
+![La siguiente imagen es del agente repondiendo a una pregunta sobre una politica](imagen_respuesta_agente.png)
 
 ---
 
